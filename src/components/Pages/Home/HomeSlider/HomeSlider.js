@@ -35,7 +35,7 @@ import img4 from '../HomeSlider/home88.png'
 
 const HomeSlider = () => {
     return (
-        <div className="carousel w-full rounded-3xl shadow-lg mt-10 mb-10">
+        <div className="carousel w-full rounded-3xl shadow-lg mt-5 mb-5">
   <div id="slide1" className="carousel-item relative w-full">
     <img src={img1} className="w-full" alt=''/>
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">

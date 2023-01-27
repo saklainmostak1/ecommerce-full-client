@@ -4,7 +4,7 @@ const HomeCardDetails = ({ cd }) => {
     console.log(cd)
     const { image } = cd
     return (
-        <div className="card m-5   bg-base-100 shadow-xl image-full">
+        <div className="card m-5  bg-base-100 shadow-xl image-full">
         <figure><img src={image} alt="Shoes" /></figure>
         <div className="card-body">
           <h2 className="card-title">Shoes!</h2>
