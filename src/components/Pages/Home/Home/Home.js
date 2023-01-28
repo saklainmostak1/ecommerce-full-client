@@ -2,6 +2,7 @@ import React from 'react';
 import HomeCard from '../HomeCard/HomeCard';
 import HomeSlider from '../HomeSlider/HomeSlider';
 import SearchButton from '../SerachButton/SearchButton';
+import WebsiteReview from '../WebsiteReview/WebsiteReview'
 
 const Home = () => {
     return (
@@ -9,9 +10,13 @@ const Home = () => {
             <div className='m-10'>
            <SearchButton></SearchButton>
         </div>
-        <div className='grid sm:grid-cols-1 lg:grid-cols-2 md:grid-cols-1'>
+        <div className='grid sm:grid-cols-1 lg:grid-cols-2 md:grid-cols-1 m-5'>
             <HomeSlider></HomeSlider>
            <HomeCard></HomeCard>
+           
+        </div>
+        <div>
+        <WebsiteReview></WebsiteReview>
         </div>
         </div>
     );

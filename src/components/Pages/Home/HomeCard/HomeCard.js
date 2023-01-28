@@ -27,7 +27,7 @@ const cardData = [
 
 const HomeCard = () => {
     return (
-        <div className="carousel grid grid-cols-2">
+        <div className="carousel lg:grid md:grid hidden   grid-cols-2">
             
         {
             cardData.map(cd => <HomeCardDetails
