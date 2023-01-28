@@ -9,7 +9,7 @@ const Navbar = () => {
     <li><Link to='/register'>Register</Link></li>
 </React.Fragment>
     return (
-        <div>
+        <div className='max-w-[1440px] mx-auto'>
         <div className="navbar bg-base-100 flex justify-between  ">
                 <div className="navbar-start">
                     <div className="dropdown">
